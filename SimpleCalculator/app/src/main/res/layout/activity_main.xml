@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="@color/colorTurquoise"
+    tools:context="com.labs.a1537595.simplecalculator.com.example.zahraa.simplecalculator.MainActivity">
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorGreenish"
+        android:hint="@string/enter_hint" />
+
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorGreenish"
+        android:hint="@string/enter_hint" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addNums"
+        android:text="@string/add"
+        android:background="@color/colorGreenish"
+        android:textColor="@color/colorBlueGray"
+        />
+
+    <Button
+        android:id="@+id/substract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="substractNums"
+        android:text="@string/substract"
+        android:background="@color/colorGreenish"
+        android:textColor="#4E8098"
+        />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="divideNums"
+        android:text="@string/divide"
+        android:background="@color/colorGreenish"
+        android:textColor="#4E8098" />
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="multiplyNums"
+        android:text="@string/multiply"
+        android:background="@color/colorGreenish"
+        android:textColor="#4E8098"/>
+
+    <Button
+        android:id="@+id/clearInputs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clearData"
+        android:text="@string/clearInputs"
+        android:background="@color/colorGreenish"
+        android:textColor="#4E8098"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textColor="@color/colorGreenish"/>
+</LinearLayout>

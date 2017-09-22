@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Calculatrice</string>
+    <string name="add">Additioner</string>
+    <string name="clearInputs">Effacer les données</string>
+    <string name="divide">Diviser</string>
+    <string name="enter_hint">Entrer un nombre</string>
+    <string name="invDivision">Ne peux pas diviser par 0!</string>
+    <string name="invInput">Entrer invalid!</string>
+    <string name="multiply">Multiplier</string>
+    <string name="result">La réponse sera içi</string>
+    <string name="substract">Soustraire</string>
+</resources>
