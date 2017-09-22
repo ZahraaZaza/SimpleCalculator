@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.labs.a1537595.simplecalculator.R;
+import com.labs.zahraa.simplecalculator.R;
 
 public class MainActivity extends AppCompatActivity {
     EditText etNum1, etNum2;
